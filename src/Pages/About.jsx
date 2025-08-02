@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       
-            <section className="bg-[#EEEFE0] py-20 border-b-3 md:px-6">
+            <section className="bg-[#EEEFE0] py-20 border-b-1 md:px-6">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">
           About DocBook
