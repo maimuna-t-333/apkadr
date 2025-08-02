@@ -3,7 +3,7 @@ import logo from './../assets/logo.png'
 
 const Header = () => {
   return (
-    <header className="sticky top-0 bg-white shadow-md z-50">
+    <header className="sticky top-0 bg-[#EEEFE0] shadow-md z-50">
       <div className="max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
         {/* Logo/Brand */}
         <Link to="/" className="w-10 h-10 ">
