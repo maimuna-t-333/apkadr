@@ -3,7 +3,7 @@ import banner from '../assets/docto-patient.jpg'
 
 const Hero = () => {
   return (
-    <section className="bg-[#EEEFE0] border-y-3 py-10">
+    <section className="bg-[#EEEFE0] border-y-1 py-10">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Text Content */}
         <div className="md:w-1/2 pl-10 ">

@@ -1,18 +1,16 @@
 import React from 'react';
 import Header from '../Pages/Header';
-import Hero from '../Pages/Hero';
-import About from '../Pages/About';
-import Services from '../Pages/Services';
+
 import Footer from '../Pages/Footer';
+import { Outlet } from 'react-router';
 
 
 const MainLayout = () => {
     return (
         <div>
             <Header></Header>
-            <Hero></Hero>
-            <About></About>
-            <Services></Services>
+            <Outlet></Outlet>
+            
             <Footer></Footer>
         </div>
     );
